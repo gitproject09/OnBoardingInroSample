@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:text="Choose Your Material\nOnboarding Intro Background"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnGradient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gradient"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnSolid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Solid"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+</LinearLayout>
