@@ -15,7 +15,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
         btnGradient = findViewById(R.id.btnGradient);
         btnImage = findViewById(R.id.btnImage);
         btnSolid = findViewById(R.id.btnSolid);
